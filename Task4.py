@@ -28,7 +28,7 @@ def findProd(array):
             print(f'На позиции {int(index)} находится элемент {arr[int(index)-1]}')
         return result
     except (IndexError):
-        return 'Индекс в file.txt больше чем длина списка. Операция прервана!'
+        return f'Индекс {int(index)} в file.txt больше чем длина списка. Операция прервана!'
 
 
 arr = makeList(inpt('Введите N:'))
