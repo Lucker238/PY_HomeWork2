@@ -19,8 +19,6 @@ def makeList(N):
         array.append(random.randint(-N,N))
     return array
 
-arr = makeList(inpt('Введите N:'))
-
 def findProd(array):
     file = open(r'C:\Users\maxim.s.EWGH\Desktop\Geekbrains\Python\HW2\file.txt', 'r')
     result = 1
@@ -32,6 +30,8 @@ def findProd(array):
     except (IndexError):
         return 'Индекс в file.txt больше чем длина списка. Операция прервана!'
 
+
+arr = makeList(inpt('Введите N:'))
 print(arr)
 print(findProd(arr))
 
