@@ -8,7 +8,3 @@ for i in range(1,n+1):
     d[i] = round((1 + 1/i) ** i)
 
 print(d)
-
-# x = (1 + 1 / n) ** n
-
-# print(x)
